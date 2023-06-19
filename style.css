@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 350px;
+    padding: 50px;
+}
+
+.header {
+    display: flex;
+    background-color: #252525;
+    color: #fff;
+    justify-content: center;
+}
+
+.header h3 {
+    text-align: center;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    border: 1px solid #252525;
+    width: 220px;
+    height: 350px;
+}
+
+form {
+    padding: 10px;
+}
+
+.content form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.content form input {
+    font-size: 10px;
+    padding: 5px 12px;
+}
+
+.buttons {
+    display: inline-block;
+}
+
+.buttons #reset {
+    padding: 10px 15px;
+    background-color: #d7dadd;
+    color: #252525;
+    border-radius: 2px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.buttons #submit {
+    padding: 10px 15px;
+    background-color: #1fae51;
+    color: white;
+    border-radius: 2px;
+    border-style: none;
+    cursor: pointer;
+}
+
+/* buttons redes */
+
+.redes #fb {
+    background-color: #3b5998;
+    color: #fff;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.redes #ln {
+    background-color: #0e76a8;
+    color: #fff;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.redes #gt {
+    background-color: #db4a39;
+    color: #fff;
+    border-radius: 5px;
+    border-style: none;
+}
+.redes #sn {
+    background-color: #fffc00;
+    color: #fff;
+    border-radius: 5px;
+    border-style: none;
+}
